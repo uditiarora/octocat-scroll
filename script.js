@@ -1,4 +1,4 @@
-var path = document.querySelector('#star-path');
+var path = document.querySelector('#ocotocat-path');
 var pathLength = path.getTotalLength();
 
 path.style.strokeDasharray = pathLength + ' ' + pathLength;
